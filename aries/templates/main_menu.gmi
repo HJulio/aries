@@ -1,0 +1,1 @@
+Welcome, {{ request.user.username }}!

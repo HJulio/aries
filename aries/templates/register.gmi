@@ -1,0 +1,18 @@
+# Aries - Register
+
+The certificate that you supplied was not recognized.
+
+## Certificate Details
+
+```
+fingerprint      : {{ fingerprint }}
+subject          : {{ cert.subject.rfc4514_string() }}
+not valid before : {{ cert.not_valid_before }}
+not valid after  : {{ cert.not_valid_after }}
+```
+
+## New Users
+
+Click here to create a new astrobotany account:
+=>/app/new-user 🥳 Register certificate as a new user
+
